@@ -18,15 +18,21 @@
     border-radius: 5px;
 }
 
+.overallPerformance-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .overallPerformance-right-wrapper {
-    width: 50%;
+    width: 70%;
     position: relative
 }
 
 .overallPerformance-right-wrapper > p {
     position: absolute;
-    bottom: 130px;
-    left: 70px;
+    bottom: 120px;
+    left: 65px;
 }
 
 
@@ -73,7 +79,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .overallPerformance-Info {
@@ -127,4 +133,29 @@
     font-size: 10px;
 }
 
+@media (max-width: 1000px) {
+    .overallPerformance-right-wrapper > p {
+        bottom: 110px; 
+        left: 55px;
+    }
+}
 
+@media (max-device-width: 380px) {
+    .overallPerformance > h5 {
+        font-size: 22px;
+    }
+
+    .overallPerformance-right-wrapper > p {
+        bottom: 120px;
+        left: 55px;
+    }
+
+    .overallPerformance-Info > strong {
+        font-size: 22px;
+    }
+
+    .overallPerformance-Info > small {
+        font-size: 18px;
+    }
+    
+}

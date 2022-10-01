@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10%;
+    height: 30px;
     margin-bottom: 20px;
 }
 
@@ -50,6 +50,7 @@
     width: 30%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -58,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%
+    height:20%;
 }
 
 .sales-left-bottom-influencers > li > img, .sales-left-bottom-products > li > img {
@@ -171,7 +172,7 @@
 .sales-right-center > div {
     display: flex;
     flex-direction: column;
-    gap:5px
+    gap: 5px
 }
 
 .france {
@@ -193,7 +194,7 @@
     height: 5px;
     border-radius: 3px;
     background-color: red;
-}
+} 
 
 .tunisie {
     width: 10%;
@@ -245,3 +246,41 @@
     border-radius: 3px;
     background-color: green;
 }
+
+
+@media (max-width:1300px) {
+    .sales-wrapper {
+        flex-direction: column;
+    }
+} 
+
+@media (max-device-width:380px) {
+
+    .sales > h5,
+    .sales-left-top, 
+    .sales-right-top, 
+    .sales-left-top > span, 
+    .sales-right-top > span, 
+    .sales-right-center,
+    .sales-right-bottom,
+    .sales-left-leftSide, 
+    .sales-left-rightSide {
+        font-size: 22px;
+    }
+
+    .sales-left-bottom {
+        gap: 20px
+    }
+
+    .sales-left-bottom-influencers > li, .sales-left-bottom-products > li {
+        height: 100px
+    }
+
+    .sales-left-bottom-influencers > li > p, .sales-left-bottom-products > li > p{
+        text-align: center;
+    }
+
+    .sales-right-center, .sales-right-bottom {
+        gap: 25px
+    }
+} 

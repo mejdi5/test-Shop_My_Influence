@@ -87,7 +87,7 @@ return (
           </div>
         </div>
       </div>
-      <div className='inDepthAnalysts-right-rightSide'>
+      <div className='inDepthAnalysts-right-rightSide'> 
         <div className='inDepthAnalysts-rightTop'>
           <p>Sales by categories</p>
           <span>see more</span>

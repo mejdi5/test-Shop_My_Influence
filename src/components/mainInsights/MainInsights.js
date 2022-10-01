@@ -61,7 +61,7 @@ return (
         </div>
       </div>
       <div className='mainInsights-right-rightSide'>
-        <div className='mainInsights-right-Image influencer'>
+        <div className='mainInsights-right-Image influencer'> 
             <img src="/images/avatars/image.png" alt=""/>
         </div>
         <div className='mainInsights-right-Info'>

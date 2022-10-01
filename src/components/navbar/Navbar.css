@@ -31,3 +31,23 @@
     object-fit: cover;
     background-color: pink;
 }
+
+@media (max-device-width: 380px) {
+
+    .navbar {
+        height: 75px;
+    }
+
+    .userInfo {
+        font-size: 35px;
+    }
+
+    .userInfo > span {
+        font-size: 20px;
+    }
+
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+}

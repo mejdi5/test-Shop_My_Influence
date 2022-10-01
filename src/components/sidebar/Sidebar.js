@@ -4,7 +4,12 @@ import './Sidebar.css'
 const Sidebar = () => {
 
   return (
-    <div className='sidebar'>
+  <div className='sidebar'>
+    <input id="menu__toggle" type="checkbox" />
+    <label className="menu__btn" htmlFor="menu__toggle">
+      <span></span>
+    </label>
+    <div className="menu__box">
       <div className='logo'>
         <img 
         className='logo'
@@ -14,7 +19,7 @@ const Sidebar = () => {
       </div>
       <ul className='list'>
         <li className='item active'>
-          <img className='icon' src="/images/menuIcons/home.png" alt=""/>
+          <img className='icon' src="/images/menuIcons/home.png" alt=""/> 
         </li>
         <li className='item'>
           <img className='icon' src="/images/menuIcons/calendar-1.png" alt=""/>
@@ -42,6 +47,7 @@ const Sidebar = () => {
         </li>
       </ul>
     </div>
+  </div>
   )
 }
 

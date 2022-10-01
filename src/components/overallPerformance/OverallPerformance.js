@@ -1,7 +1,7 @@
 import React from 'react'
 import './OverallPerformance.css'
 import {FiShoppingCart} from 'react-icons/fi'
-import { CircularProgressbar, buildStyles,CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import { buildStyles,CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const OverallPerformance = () => {
@@ -53,22 +53,25 @@ return (
         </div>
     </div>
     <div className='overallPerformance-right'>
-      <div className='overallPerformance-right-wrapper'>
+      <div className='overallPerformance-right-container'>
+        <div className='overallPerformance-right-wrapper'>
         <p>Conversion</p>
-        <CircularProgressbarWithChildren
-        value={83}
-        text={`${83}%`}
-        strokeWidth={10}
-        circleRatio={0.95}
-        styles={buildStyles({
-          textColor: "black",
-          pathColor: `rgb(204, 89, 204)`,
-          strokeLinecap: "butt",
-          rotation: 1 / 3 + 1 / 8,
-          trailColor: "white",
-          textSize: "8px",
-        })}
-        />
+          <CircularProgressbarWithChildren
+          value={83}
+          text={`${83}%`}
+          strokeWidth={10}
+          circleRatio={0.95}
+          styles={buildStyles({
+            textColor: "black",
+            pathColor: `rgb(204, 89, 204)`,
+            strokeLinecap: "butt",
+            rotation: 1 / 3 + 1 / 8,
+            trailColor: "white",
+            textSize: "8px",
+          })}
+          />
+        </div>
+        
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
 return (
 <div className='header'>
-    <p>Summary dashboard: Drope facts</p>
+    <p className='summary'>Summary dashboard: Drope facts</p>
     <div className='buttons'>
         <div className='leftButtons'>
             <button className='customize'>Customize a period</button>

@@ -124,3 +124,61 @@
     text-align: center;
     margin-top: 10px;
 }
+
+
+@media (max-width: 1000px) {
+    .mainInsights-wrapper {
+        flex-direction: column;
+    }
+
+    .mainInsights-left {
+        height: 400px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px
+    }
+
+    .mainInsights-leftItem:nth-child(2n), .mainInsights-leftItem:nth-child(2n + 1) {
+        justify-content: center;
+        gap: 100px
+    }
+
+    .mainInsights-right {
+        flex-direction: column;
+    }
+
+    .mainInsights-right-leftSide, .mainInsights-right-rightSide {
+        width: 100%;
+        height: 300px
+    }
+}
+
+
+@media (max-device-width: 380px) {
+
+    .mainInsights > h5 {
+        font-size: 22px;
+    }
+
+    .mainInsights-leftItem > div > strong {
+    font-size: 22px;
+    }
+
+    .mainInsights-leftItem > div > small {
+        font-size: 18px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .mainInsights-leftItem:nth-child(2n), .mainInsights-leftItem:nth-child(2n + 1) {
+        gap: 200px
+    }
+
+    .mainInsights-right {
+        flex-direction: row;
+    }
+
+    .mainInsights-right-Info {
+        font-size: 22px;
+    }
+}
