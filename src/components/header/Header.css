@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    position: relative
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.leftButtons {
+    display: flex;
+    gap: 20px
+}
+
+.customize {
+    background-color: rgb(240, 236, 236);
+    color: orange;
+    border: solid 1px orange;
+    padding: 5px 10px;
+    border-radius: 7px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.select {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    width: 180px;
+    cursor: pointer;
+}
+
+.rightButton > button {
+    background-color: rgb(240, 236, 236);
+    color: orange;
+    border: solid 1px orange;
+    padding:5px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.period {
+    position: absolute;
+    right: 55px;
+    top: -25px;
+    color: orange
+}

@@ -1,0 +1,247 @@
+.sales {
+    margin-bottom: 18px;
+}
+
+.sales-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.sales-left {
+    background-color: #fff;
+    flex: 2;
+    height: 450px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px
+}
+
+.sales-left-leftSide, .sales-left-rightSide {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-left-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.sales-left-top > span{
+    text-decoration: underline;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.sales-left-bottom {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sales-left-bottom-influencers, .sales-left-bottom-products {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sales-left-bottom-influencers > li, .sales-left-bottom-products > li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%
+}
+
+.sales-left-bottom-influencers > li > img, .sales-left-bottom-products > li > img {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.first-avatar {
+    background-color: red;
+}
+
+.second-avatar {
+    background-color: pink;
+}
+.third-avatar {
+    background-color: green;
+}
+.fourth-avatar {
+    background-color: yellow;
+}
+.fifth-avatar {
+    background-color: blue;
+}
+
+.sales-left-bottom-percentage {
+    list-style: none;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sales-left-bottom-percentage > li{
+    list-style: none;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.first-percentage {
+    width: 90%;
+    height: 5px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.second-percentage {
+    width: 50%;
+    height: 5px;
+    background-color: red;
+    border-radius: 3px;
+}
+.third-percentage {
+    width: 40%;
+    height: 5px;
+    background-color: red;
+    border-radius: 3px;
+}
+.fourth-percentage {
+    width: 30%;
+    height: 5px;
+    background-color: red;
+    border-radius: 3px;
+}
+.fifth-percentage {
+    width: 30%;
+    height: 5px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.sales-right {
+    background-color: #fff;
+    flex: 1;
+    height: 450px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    padding: 5px 10%
+}
+
+.sales-right-top {
+    padding: 15px;
+    padding-bottom: 10;
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sales-right-top > span{
+    text-decoration: underline;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.sales-right-center {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sales-right-center > div {
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.france {
+    width: 70%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgb(10, 10, 87);
+}
+
+.belgique {
+    width: 20%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: green;
+}
+
+.suisse {
+    width: 15%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: red;
+}
+
+.tunisie {
+    width: 10%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: orange;
+}
+
+.angleterre {
+    width: 8%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: blue;
+}
+
+.sales-right-bottom {
+    flex: 4.5;
+}
+
+.sales-right-bottom > h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.sales-right-bottom-statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0px;
+    padding: 15px
+}
+
+.sales-right-bottom-statistics > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.gifting {
+    width: 70%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgb(10, 10, 87);
+}
+
+.paid {
+    width: 30%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: green;
+}

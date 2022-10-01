@@ -1,0 +1,126 @@
+.mainInsights {
+    margin-bottom: 18px;
+}
+
+.mainInsights-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.mainInsights-left {
+    flex: 1;
+    background-color: #fff;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mainInsights-leftItem:nth-child(2n + 1) {
+    justify-content: flex-start;    
+}
+
+.mainInsights-leftItem:nth-child(2n) {
+    justify-content: flex-end;
+}
+
+.mainInsights-leftItem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainInsights-leftItem > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 10px 0px
+
+}
+
+.mainInsights-leftItemImage {  
+    padding: 15px
+}
+
+.smartphone {
+    background-color: rgb(245, 224, 227);
+}
+
+.target {
+    background-color: pink;
+}
+
+.award {
+    background-color: rgb(221, 237, 221);
+}
+
+.calendar {
+    background-color: rgb(241, 225, 228);
+}
+
+.package {
+    background-color: lightgrey;
+}
+
+.sun {
+    background-color: rgb(227, 223, 223);
+}
+
+.mainInsights-right { 
+    flex: 1;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.mainInsights-right-leftSide, .mainInsights-right-rightSide {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.mainInsights-right-Image {
+    height: 60%;
+    width: 100%;
+    background-color: pink;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram > img {
+    border-radius: 50%;
+    padding: 15px;
+    background-color: lightpink;
+    object-fit: cover;
+}
+
+.influencer > img {
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+.mainInsights-right-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    padding: 0px 80px
+}
+
+.mainInsights-right-Info > small {
+    text-align: center;
+    margin-top: 10px;
+}

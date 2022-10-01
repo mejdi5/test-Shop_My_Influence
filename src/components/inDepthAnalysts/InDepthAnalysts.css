@@ -1,0 +1,149 @@
+.inDepthAnalysts {
+    margin-bottom: 18px;
+}
+
+.inDepthAnalysts-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.inDepthAnalysts-left {
+    background-color: #fff;
+    flex: 1;
+    height: 550px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inDepthAnalysts-leftTop { 
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inDepthAnalysts-leftTop > span {
+    text-decoration: underline;
+    font-style: 12px;
+    color: lightgrey
+}
+
+.inDepthAnalysts-leftCenter {
+    flex: 5;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inDepthAnalysts-leftCenter-wrapper {
+    height: 75%;
+    width: 75%;
+}
+
+.inDepthAnalysts-leftBottom {
+    flex: 4;
+    padding: 15px;
+}
+
+.inDepthAnalysts-leftBottom > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.inDepthAnalysts-leftBottom > ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inDepthAnalysts-leftBottom > ul > li > div {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.inDepthAnalysts-right {
+    background-color: #fff;
+    flex: 2;
+    height: 550px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.inDepthAnalysts-right-leftSide, .inDepthAnalysts-right-rightSide {
+    flex: 1;
+}
+
+.inDepthAnalysts-rightTop { 
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inDepthAnalysts-rightTop > span {
+    text-decoration: underline;
+    font-style: 12px;
+    color: lightgrey
+}
+
+.inDepthAnalysts-rightBottom {
+    padding: 15px;
+    margin-top: 10px;
+    height:65%;
+    display: flex;
+}
+
+.item {
+    width:20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.ios-sales {
+    height: 90%;
+    width: 20px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.andr-sales {
+    height: 70%;
+    width: 20px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.vide-sales {
+    height: 50%;
+    width: 20px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.win-sales {
+    height: 30%;
+    width: 20px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.mac-sales {
+    height: 20%;
+    width: 20px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

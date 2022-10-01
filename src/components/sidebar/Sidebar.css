@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: white;
+    box-shadow: 10px;
+}
+
+.logo {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: rgb(71, 71, 203);
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    color: black
+}
+

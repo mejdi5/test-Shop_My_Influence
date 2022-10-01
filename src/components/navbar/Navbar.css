@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.user {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.userInfo > span {
+    font-size: 10px;
+    text-align: end;
+}
+
+.userImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: pink;
+}

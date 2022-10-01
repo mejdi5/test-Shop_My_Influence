@@ -1,0 +1,130 @@
+.overallPerformance {
+    margin-bottom: 18px;
+}
+
+.overallPerformance-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.overallPerformance-right {
+    flex: 1;
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.overallPerformance-right-wrapper {
+    width: 50%;
+    position: relative
+}
+
+.overallPerformance-right-wrapper > p {
+    position: absolute;
+    bottom: 130px;
+    left: 70px;
+}
+
+
+.overallPerformance-left {
+    flex: 2;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.overallPerformance-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 30px
+}
+
+.overallPerformance-topLeft, .overallPerformance-topRight {
+    background-color: #fff;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.overallPerformance-bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 30px
+}
+
+.overallPerformance-bottomLeft, .overallPerformance-bottomCenter, .overallPerformance-bottomRight{
+    background-color: #fff;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.overallPerformance-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overallPerformance-Info > small {
+    font-size: 10px;
+    color: grey
+}
+
+.overallPerformance-Image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.topLeftImage {
+    background-color: rgb(245, 224, 227);
+}
+
+.topRightImage {
+    background-color: lightgrey;
+    object-fit: contain;
+}
+
+.bottomCenterImage {
+    background-color: rgb(221, 237, 221);
+}
+
+.bottomRightImage {
+    background-color: rgb(245, 224, 227);
+    object-fit: contain;
+}
+
+.shopping-cart-icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(245, 218, 223);
+    border-radius: 50%;
+}
+
+.shopping-cart-icon > .icon {
+    object-fit: contain;
+    font-size: 10px;
+}
+
+
